@@ -1,12 +1,8 @@
 header {
-  background: #999;
+  background: #d966ff;
   font font-family: fantasy;
 }
 
-body {
-  background: #d966ff;
-  font-family: fantasy;
-}
 header h1 {
   margin:0
   color: #666633
