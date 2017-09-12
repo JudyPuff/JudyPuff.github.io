@@ -6,6 +6,7 @@ body{
 header {
   background: #c266ff;
   color: black;
+  list-style-type: none;
 }
 
 h1 {
