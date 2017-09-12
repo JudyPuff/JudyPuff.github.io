@@ -1,5 +1,6 @@
 body{
-  margin:0;
+  margin:30px;
+  background-color: #ccc;
 }
 
 header {
@@ -7,22 +8,30 @@ header {
   color: black;
 }
 
-header h1 {
-  margin:0;
+h1 {
+  margin: 80px;
   color: #666633;
   display: inline;
 
 nav ul {
   margin: 20px;
   padding: 0px;
+  list-style-type: none;
 }
 nav ul li {
   background: #999;
   color: white;
-  list-style-type: none;
   display: inline-block;
   padding:5px 15px;
 }
 nav ul li a {
   color: black;
+}
+h3 {
+  font-size: large;
+}
+.a {
+  margin: 20px;
+  padding: 0px;
+  list-style-type: none;
 }
