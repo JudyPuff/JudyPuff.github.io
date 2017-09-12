@@ -1,10 +1,9 @@
 body{
   margin:0;
-  color: #c266ff
 }
 
 header {
-  background: #999;
+  background: #c266ff;
   color: black;
 }
 
@@ -18,12 +17,12 @@ nav ul {
   padding: 0px;
 }
 nav ul li {
-  background: black;
+  background: #999;
   color: white;
   list-style-type: none;
   display: inline-block;
   padding:5px 15px;
 }
 nav ul li a {
-  color: white;
+  color: black;
 }
