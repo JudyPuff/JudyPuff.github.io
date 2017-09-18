@@ -2,6 +2,14 @@ body{
   margin:30px;
   background-color: #ccc;
 }
+.page-wrapper {
+  background: url(cover_bot.png) no-repeat left bottom;
+  left: 50%;
+  position: absolute;
+  width: 770px;
+  margin: 10px 0 20px -385px;
+  padding-bottom: 120px;
+}
 
 header {
   background: #c266ff;
