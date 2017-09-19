@@ -1,6 +1,6 @@
 body{
   margin:30px;
-  background-color: #ccc;
+  background-color: #c266ff;
 }
 .page-wrapper {
   background: url(cover_bot.png) no-repeat left bottom;
@@ -27,7 +27,6 @@ nav ul {
   background: #999;
   color: white;
   display: inline-block;
-  list-style-type: none;
   padding:5px 15px;
 }
 nav ul li a {
@@ -40,4 +39,8 @@ h3 {
   margin: 20px;
   padding: 0px;
   list-style-type: none;
+}
+
+.pensive-monkey {
+  border-radius: 50%;
 }
