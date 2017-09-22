@@ -17,6 +17,14 @@ header {
   list-style-type: none;
 }
 
+.button {
+  color: white;
+  background-color: black;
+  padding: 15px;
+  font-family: cursive;
+  text-align: center;
+}
+
 h1 {
   margin: 80px;
   color: #666633;
