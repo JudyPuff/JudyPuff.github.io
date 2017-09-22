@@ -21,8 +21,20 @@ h1 {
   margin: 80px;
   color: #666633;
   display: inline;
-  font-size: large;
+  font-size: 250%;
 
+}
+
+h2 {
+  font-size: 200%;
+}
+
+h3 {
+  font-size: 170%;
+}
+
+p {
+  font-size: 100%;
 }
 
 nav ul{
@@ -49,9 +61,7 @@ nav ul a.active {
   background-color: #4CAF50;
   color: white;
 }
-h3 {
-  font-size: large;
-}
+
 .a {
   margin: 20px;
   padding: 0px;
