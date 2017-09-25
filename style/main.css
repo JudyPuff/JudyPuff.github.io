@@ -1,6 +1,6 @@
 body{
   margin:30px;
-  background-color: #c266ff;
+  background-color: #f2d9e6;
 }
 .page-wrapper {
   background: url(cover_bot.png) no-repeat left bottom;
@@ -12,7 +12,7 @@ body{
 }
 
 header {
-  background: #c266ff;
+  background: #a3a375;
   color: black;
   list-style-type: none;
 }
