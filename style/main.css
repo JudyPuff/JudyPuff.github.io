@@ -2,14 +2,6 @@ body {
   padding-top: 2rem;
 }
 
-.highlight {
-  font-style: italic;
-  padding: 2rem;
-  background-color: #ccc;
-  border-radius: 0.5rem;
-  box-shadow: 0.5rem 0.5rem 0 0 #aaa;
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -36,4 +28,18 @@ body {
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
+}
+
+.pensive-monkey {
+  border-radius: 50%;
+  max-width: 20rem;
+  max-height: 20rem;
+}
+
+.highlight {
+  font-style: italic;
+  padding: 2rem;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0 0 #aaa;
 }
