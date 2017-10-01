@@ -55,8 +55,8 @@ body {
 /* Limit the size of the wireframe jpg */
 
 .blawg-desktop-wireframe img {
-  width: 600rem;
-  height: 400rem;
+  max-width: 50%;
+  max-height: 50%;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
