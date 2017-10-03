@@ -54,11 +54,6 @@ body {
 
 /* Limit the size of the wireframe jpg */
 
-img {
-  width: 20vw;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
+.blawg-desktop-wireframe img {
+  width: 50vw;
 }
