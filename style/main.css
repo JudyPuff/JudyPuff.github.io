@@ -54,6 +54,6 @@ body {
 
 /* Limit the size of the wireframe jpg */
 
-.blawg-desktop-wireframe img {
+.blawg-desktop-wireframe {
   width: 50vw;
 }
