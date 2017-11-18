@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Judy's World</title>
+  <link rel="stylesheet" type="text/css" href="/style/main.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="/index.html">Home</a>
+    <a href="/web-dev-journey/web-dev-index.html">My Web Dev Journey</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+
+      <div class="twelve columns">
+        <h1>Technical Blog 6 - JavaScript Language</h1>
+        <p>Explain to a non-tech friend that in the JavaScript language, all the use cases for each of:</p>
+        <ul>
+          <li>Parentheses (fancy way of saying round brackets...)<code>()</code> - e.g. 'Execute a function <code>var result = doSomething()</code>'</li>
+            <p>There are several different places you will see a <code>()</code> in JavaScript: </p>
+            <ol>
+              <li>Next to a function but empty e.g. <code>function startGame()</code></li>
+              <p>The <code>()</code> in this case simply tells the computer 'Hey! This is a function so you're gonna have to do stuff!' because without the <code>()</code> it's just a word and the computer is like: 'Uh-uh. And? What do you want me to DO?'</p>
+
+              <li>Next to a function but with parameters in it E.g. <code>function createBoard(size)</code></li>
+              <p>Everything in between the parentheses (aka round brackets) are the 'sureyors' bit to a function. You are simply telling the computer 'Hey! We're gonna create a board and I'm gonna tell you what size it is.'. It usually contains a list of parameters (I think of them as boundary pegs). Some functions have no parameters so it's blank like above (and I'm still amazed that it still works!). </p>
+
+              <li>Containing an expression or 'doing code' e.g. <code>for (let i = 0; i < size; i++)</code></li>
+              <p>This is like the actual receipe for doing things. In this example code, you saying to the computer 'Ok buddy, I want you to start at 0 and then size up by one each time.'</p>
+
+              <li>Normal algebra e.g. <code>a = (4 + 3) * 2</code></li>
+              <p>Another way that parenthese is used is when you have an algebraic equation (remember high school maths? I know...ugh!). But it just means you do the equation inside first.</p>
+
+            </ol>
+
+          <li>Brackets <code>[]</code></li>
+            <p>Inside the brackets <code>[]</code> is where you put a list (fancy name = 'array') in JavaScript.</p>
+
+          <li>Braces <code>{}</code></li>
+            <p>You put code in curly braces to create objects (things that can be made) and declare variables (names for things). E.g. <code>var board = {
+              cells: ...}</code></p>
+
+          <li>Single quotes <code>''</code></li>
+            <p>You write your strings (words and sentences) in quotes. This tells the computer to recognise it as just words, not special names for a function. </p>
+
+          <li>Double quotes <code>""</code></li>
+            <p>Had to google this. There is no difference between single quotes <code>''</code> and double quotes <code>""</code> except that you can write a double quote in a single-quoted string without escaping it.</p>
+
+        </ul>
+
+      </div>
+
+    </div>
+    <hr>
+  </body>
+  </html>
