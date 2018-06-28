@@ -1,0 +1,70 @@
+
+body {
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+header > h2 {
+  color: #fff;
+  font-size: 36pt;
+}
+
+h2 {
+  opacity: 0.8;
+  color: #111f04;
+  font-size: 36pt;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+header, footer {
+  text-align: center;
+  height: 100px;
+  background: #666;
+  color: #fff;
+}
+
+p {
+  font-size: 12pt;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  background: #999;
+  color: #000;
+}
+
+.columns {
+  display: flex;
+  flex: 1;
+}
+
+.posts {
+  flex: 1;
+  order: 2;
+  background: #eee;
+  padding: 10px;
+}
+
+.other {
+  width: 20%;
+  background: #ccc;
+  order: 1;
+  padding: 10px;
+}
+
+.recent {
+  width: 20%;
+  order: 3;
+  background: #ddd;
+  padding: 10px;
+}
